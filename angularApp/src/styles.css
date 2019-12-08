@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+canvas{
+    width: 5% !important;
+    height: 5% !important;
+    /* This removes the canvas margin-bottom styling.*/
+    margin-bottom: -5px;
+}
+
+body{
+    margin: 0px;
+}
