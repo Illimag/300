@@ -41,7 +41,7 @@ Create Angular Component with P5.JS element.
 
     <app-human-computer></app-human-computer>
 
-Add 300 components in the following 20 by 20 grid formation.
+Add 300 components in the following 20 by 15 grid formation.
 
 ![grid](img/grid-01.png)
 
@@ -71,7 +71,6 @@ human-computer.component.css
 ### Graphic Performance
 
 ![gpu](img/gpu-01.png)
-
 
 ## Link
 
