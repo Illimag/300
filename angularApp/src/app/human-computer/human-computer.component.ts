@@ -636,9 +636,9 @@ p.triangle(765, 482, 818, 573, 870, 482);
 }
 
       function mouseClicked() {
-                        /* Randomize RGB */
-                        randomizeColor();
-                        randomizeStrokeColor();
+        /* Randomize RGB */
+        randomizeColor();
+        randomizeStrokeColor();
       }
 
       function randomizeColor() {
@@ -647,9 +647,6 @@ p.triangle(765, 482, 818, 573, 870, 482);
         }
       }
       function randomizeStrokeColor() {
-        for (let i = 0; i < 148; i++) {
-          rgbArr[i] = { R: p.random(255), G: p.random(255), B: p.random(255) };
-        }
         for (let i = 0; i < 148; i++) {
           rgbArr[i] = { R: p.random(255), G: p.random(255), B: p.random(255) };
         }
