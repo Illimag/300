@@ -73,32 +73,6 @@
 
 </script>
 
-<script>
-function move(element, distance=20) {
-   /* ... */
-   // (Step 1) Get the current top value
-   var elStyle = window.getComputedStyle(element);
-   var topValue = elStyle.getPropertyValue("top").replace("px", "");
-   // (Step 2) Determine the destination of top value
-   var destination = (Number(topValue) + distance) + "px";
-   // (Step 3) Add a new class to the stylesheet
-   elStyleSheet.innerHTML += `
-      #` + elId + `.moved
-      {
-         transition: all 1s linear;
-         -webkit-transition: all 1s linear;
-         -moz-transition: all 1s linear;
-         -o-transition: all 1s linear;
-         top: ` + destination + `;
-         left: ` + elStyle.getPropertyValue("left") + `;
-      }
-   `;
-   // (Step 4) Add the class, to fire the CSS transition
-   element.idList.add("moved");
-}
-
-move()
-</script>
 
 </body>
 </html>

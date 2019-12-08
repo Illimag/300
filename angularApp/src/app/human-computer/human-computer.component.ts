@@ -96,25 +96,13 @@ export class HumanComputerComponent implements OnInit {
         /* 49 */ p.fill(rgbArr[49].R, rgbArr[49].G, rgbArr[49].B).quad(502, 27, 518, 0, 591, 0, 607, 27);
         /* 50 */ p.fill(rgbArr[50].R, rgbArr[50].G, rgbArr[50].B).triangle(486, 0, 502, 27, 518, 0);
         /* 51 */ p.fill(rgbArr[51].R, rgbArr[51].G, rgbArr[51].B).quad(397, 27, 413, 0, 487, 0, 502, 27);
-        /* 52 */
-        p.fill(rgbArr[52].R, rgbArr[52].G, rgbArr[52].B);
-        p.triangle(381, 0, 397, 27, 413, 0);
-
-        /* 53 */
-        p.fill(rgbArr[53].R, rgbArr[53].G, rgbArr[53].B);
-        p.quad(292, 27, 308, 0, 381, 0, 397, 27);
-
-        /* 54 */
-        p.fill(rgbArr[54].R, rgbArr[54].G, rgbArr[54].B);
-        p.triangle(276, 0, 292, 27, 308, 0);
-
-        /* 55 */
-        p.fill(rgbArr[55].R, rgbArr[55].G, rgbArr[55].B);
-        p.quad(187, 27, 203, 0, 276, 0, 292, 27);
-
+        /* 52 */ p.fill(rgbArr[52].R, rgbArr[52].G, rgbArr[52].B).triangle(381, 0, 397, 27, 413, 0);
+        /* 53 */ p.fill(rgbArr[53].R, rgbArr[53].G, rgbArr[53].B).quad(292, 27, 308, 0, 381, 0, 397, 27);
+        /* 54 */ p.fill(rgbArr[54].R, rgbArr[54].G, rgbArr[54].B).triangle(276, 0, 292, 27, 308, 0);
+        /* 55 */ p.fill(rgbArr[55].R, rgbArr[55].G, rgbArr[55].B).quad(187, 27, 203, 0, 276, 0, 292, 27);
         /* 56 */
         p.fill(rgbArr[56].R, rgbArr[56].G, rgbArr[56].B);
-        p.triangle(171, 0, 187, 27, 203, 0);
+        p.fill(rgbArr[56].R, rgbArr[56].G, rgbArr[56].B).triangle(171, 0, 187, 27, 203, 0);
 
         /* 57 */
         p.fill(rgbArr[57].R, rgbArr[57].G, rgbArr[57].B);
